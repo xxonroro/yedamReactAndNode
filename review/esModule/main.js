@@ -5,6 +5,9 @@
 
 // 2. modul.js 파일에서 export한 모듈 중 필요한 모듈만 가져온다.
 import { module } from "./modul.js";
+export {module, moduleA};
+
+
 module("전체 module run")
 
 import {movie} from "../promise_await.js";
